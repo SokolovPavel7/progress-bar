@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.root {
+  display: flex;
+  height: 100vh;
+  justify-content: center; /*выравниевание содержимого*/
+  align-items: center; /*выравнивание элементов*/
+  flex-direction: column; /*направление изгиба: столбец*/
+}
+
+.text {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.container {
+  width: 50vw;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.load {
+  width: 0;
+  height: 100%;
+  background: #edc354;
+  border-radius: 4px;
+  transition: width 0.7s linear;
+}
